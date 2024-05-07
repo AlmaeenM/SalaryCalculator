@@ -1,1 +1,2 @@
 # SalaryCalculator
+SalaryCalculator.java is a Java class designed to calculate the salary of an employee based on their hourly rate and the number of hours worked. It provides methods to input the hourly rate and hours worked, and then calculates the total salary using a simple formula: hourly rate multiplied by hours worked. This class can be easily integrated into Java applications to automate salary  calculations for employees.
