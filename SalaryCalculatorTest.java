@@ -3,7 +3,7 @@ import org.junit.Test;
 
 public class SalaryCalculatorTest {
 
-    
+    @Test
     public void testCalculateSalary_noOvertime() {
         double hourlyRate = 20.0;
         double hoursWorked = 40.0;
@@ -13,7 +13,7 @@ public class SalaryCalculatorTest {
         assertEquals(expectedSalary, actualSalary, 0.01);
     }
 
-    
+    @Test
     public void testCalculateSalary_withOvertime() {
         double hourlyRate = 20.0;
         double hoursWorked = 45.0;
@@ -23,7 +23,7 @@ public class SalaryCalculatorTest {
         assertEquals(expectedSalary, actualSalary, 0.01);
     }
 
-    
+    @Test
     public void testCalculateSalary_zeroHours() {
         double hourlyRate = 20.0;
         double hoursWorked = 0.0;
@@ -33,7 +33,7 @@ public class SalaryCalculatorTest {
         assertEquals(expectedSalary, actualSalary, 0.01);
     }
 
-    
+    @Test
     public void testCalculateSalary_negativeHours() {
         double hourlyRate = 20.0;
         double hoursWorked = -5.0;
