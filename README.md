@@ -13,4 +13,8 @@ To use `SalaryCalculator.java`, follow these steps:
 2. Run the compiled program and provide input for hourly rate and hours worked.
 3. The program will calculate and display the monthly salary.
 
+## Last Updates
+1. Added Unit Test.
+2. Added Bonus to the Salary.
+
 Feel free to explore the code and make improvements or additions as needed.
