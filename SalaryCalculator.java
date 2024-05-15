@@ -21,6 +21,9 @@ public class SalaryCalculator {
         double salary = calculateSalary(hourlyRate, hoursWorked);
         System.out.println("Total salary: $" + salary);
 
+        double salaryAfterBonus = (salary * 0.2) + salary;
+        System.out.println("Total salary after added the bonus: $" + salary);
+
         scanner.close();
     }
 
