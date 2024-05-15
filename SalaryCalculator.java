@@ -28,11 +28,16 @@ public class SalaryCalculator {
     }
 
     public static double calculateSalary(double hourlyRate, double hoursWorked) {
-        double baseSalary = hourlyRate * hoursWorked;
-        double overtimeRate = 1.5 * hourlyRate;
-        double overtimeHours = Math.max(0, hoursWorked - 40);
-        double overtimePay = overtimeHours * overtimeRate;
-
-        return baseSalary + overtimePay;
+        if(hourlyRate > 0 && hoursWorked > 0){
+            double baseSalary = hourlyRate * hoursWorked;
+            double overtimeRate = 1.5 * hourlyRate;
+            double overtimeHours = Math.max(0, hoursWorked - 40);
+            double overtimePay = overtimeHours * overtimeRate;
+    
+            return baseSalary + overtimePay;
+        }else{
+            System.out.println("the app not accept the negative values");
+            return 0;
+        }
     }
 }
