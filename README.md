@@ -16,5 +16,6 @@ To use `SalaryCalculator.java`, follow these steps:
 ## Last Updates
 1. Added Unit Test.
 2. Added Bonus to the Salary.
+3. Update Salary bonus
 
 Feel free to explore the code and make improvements or additions as needed.
